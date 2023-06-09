@@ -3,7 +3,7 @@ on: push
 env:
   ASC_PACKAGE_PATH: ${{ github.workspace }}
   JAVA_VERSION: 17
-  AZURE_SUBSCRIPTION: c70085e6-c3ce-4d50-b40c-d03cb762d680
+  AZURE_SUBSCRIPTION: 6377f0d2-dcac-44e3-be24-b75aab76b719
 
 jobs:
   deploy_to_production:
